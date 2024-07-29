@@ -10,3 +10,13 @@ export const options: NextAuthOptions = {
     ],
     secret: process.env.NEXTAUTH_SECRET // next auth secret
 }
+
+/**
+ * Next auth setup with google auth
+ * 1. - install next-auth i.e npm install next-auth
+ * 2. - create auth folder and file inside the api i.e src/app/api/auth/[...nextauth]
+ * 3. - create next-auth provider i.e src/app/api/auth/[...nextauth]/option.ts
+ * 4. - create route for the next-auth i.e src/app/api/auth/[...nextauth]/router.ts
+ * 5. - create middleware and define the matcher
+ * 
+ */
